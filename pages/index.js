@@ -15,8 +15,8 @@ export default function Home() {
 
         <p className={styles.description}>
           <div className={styles.buttonSignInOut}>
-            <Link href="./users/signup/">
-              <a>S'inscrire</a>
+            <Link href="./users/profile/">
+              <a>Profiles</a>
             </Link>
           </div>
           <div className={styles.buttonSignInOut}>
@@ -27,7 +27,7 @@ export default function Home() {
         </p>
       </main>
 
-      <footer className={styles.footer}></footer>
+      <footer className={styles.footer}>Application GST</footer>
     </div>
   );
 }

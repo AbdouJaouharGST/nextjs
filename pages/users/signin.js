@@ -43,9 +43,15 @@ class Home extends React.Component {
                 />
               </form>
             </div>
+
+            <div className={styles.buttonSignInOut}>
+              <Link href="/users/profile/">
+                <a>Profiles</a>
+              </Link>
+            </div>
           </main>
 
-          <footer className={styles.footer}></footer>
+          <footer className={styles.footer}>Application GST</footer>
         </div>
       </>
     );

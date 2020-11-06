@@ -16,3 +16,18 @@ a {
 }
 .buttonSignInOut {
 }
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table {
+  width: 700px;
+  text-align: center;
+}
+th {
+  color: white;
+  background-color: #000;
+}
